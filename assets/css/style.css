@@ -23,12 +23,15 @@
 
 .div2 {
     background-image: "";
+    grid-column: 3 / 4;
+    height: 100%;
     background-color: red;
     
 }
 
 .div3 {
     background-image: "";
+    grid-column: ;
     width: 100%;
     height: 125px;
     background-color:blue;
