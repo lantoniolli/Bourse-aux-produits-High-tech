@@ -6,11 +6,23 @@
 
 }
 
-.text {
+.picture {
     
+    margin-left: 142px;
+    background-image: "public/assets/img/5ed927a89a1578a062eece5886fdb18b--flea-markets-fleas.jpg";
+    width: 528px;
+    height: 794px;
+    background-color: blueviolet;
+}
+
+
+
+.text {
+    S
     color: white;
     font-family: "Merriweather", serif;
     font-size: 36px;
+    f
     
 }
 
