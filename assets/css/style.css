@@ -1,3 +1,34 @@
+.container {
+    
+    width: 100%;
+    height: 1098px;
+    background-color: #2D2F36;
+
+}
+
+.text {
+    
+    color: white;
+    font-family: "Merriweather", serif;
+    font-size: 36px;
+    
+}
+
+.titre2 {
+    color: white; 
+    font-family: "Raleway", sans-serif;
+    font-size: 96px;
+
+}
+    
+
+
+
+
+
+
+
+
 .gallery {
     
     
