@@ -88,19 +88,34 @@ header p {
         /* RESEAUX SOCIAUX */
 /* Taille et positionnement de la box */
 .boxSocial {
+    position: absolute;
     width: 274px;
     height: 76px;
     align-self: flex-end;
     display: flex;
     justify-content: space-between;
-    margin-right: 76px;
-    margin-top: 9%;
+    right: 76px;
+    bottom: 5%;
 }
 /* Redimension des images */
 header a img {
     width: 76px;
 }
 
+/* BOUTON HOME */
+#homeButton {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+#homeButton:active {
+    background-color: gray;
+}
 
 
 
