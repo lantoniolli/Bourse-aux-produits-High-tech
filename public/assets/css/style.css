@@ -60,8 +60,23 @@ nav ul li {
     display: inline;
     margin:40px;
 }
+/* Display du soulignement */
+header nav ul li a {
+    display: inline-block;
+}
 
-        /* TITRE */
+header nav ul li a::after {
+    content: '';
+    width: 0px;
+    height: 8px;
+    display: block;
+    background: black;
+    transition: 1s;
+}
+
+header nav ul li a:hover:after {
+    width: 100%;
+}
 /* Style du titre */
 h1 {
     color: #2d2f36;
@@ -262,8 +277,8 @@ header a img {
 
 
 
-
-
+                    /* SECTEUR */
+/* Background et flex */
 .place {
     height: 900px;
     background-color: #2d2f36;
@@ -272,7 +287,7 @@ header a img {
     justify-content: space-around;
     align-items: center;
 }
-
+/* Container des textes et cartes */
 .placeBox {
     width: 800px;
     height: 700px;
@@ -281,11 +296,11 @@ header a img {
     align-items: center;
     justify-content: space-between;
 }
-
+/* Titre */
 .place h2 {
     color: white;
 }
-
+/* Paragraphe */
 .place p {
     color: white;
     font-family: "Merriweather", serif;
@@ -293,11 +308,11 @@ header a img {
     font-weight: 300;
     text-align: center;
 }
-
+/* Liste */
 .placeInfo li{
     margin: 30px;
 }
-
+/* Style de la liste */
 .placeInfo ul {
     list-style: none;
     color: white;
@@ -305,7 +320,7 @@ header a img {
     font-size: 50px;
     font-weight: 600;
 }
-
+/* Taille des images de contact */
 .place .placeBox .placeInfo ul li img {
     height: 50px;
 }
@@ -313,8 +328,8 @@ header a img {
 
 
 
-
-
+                    /* PARTICIPER */
+/* Bakcground et flex */
 .form {
     height: 900px;
     background-color: #f2c499;
@@ -323,11 +338,11 @@ header a img {
     justify-content: space-around;
     align-items: center;
 }
-
+/* Titre */
 .form h2 {
     color: #2d2f36;
 }
-
+/* Container des 2 box */
 .formContainer {
     height: 500px;
     width: 100%;
@@ -336,7 +351,7 @@ header a img {
     justify-content: space-around;
     align-items: center;
 }
-
+/* Style et flex de la premiere box */
 .formBox1 {
     height: 500px;
     width: 760px;
@@ -346,7 +361,7 @@ header a img {
     flex-direction: column;
     justify-content: space-evenly;
 }
-
+/* Style et flex de la deuxieme box */
 .formBox2 {
     height: 500px;
     width: 760px;
@@ -357,7 +372,7 @@ header a img {
     justify-content: space-evenly;
     align-items: center;
 }
-
+/* Style des titres des box */
 .form p {
     color: white;
     font-family: "Raleway", serif;
@@ -365,7 +380,7 @@ header a img {
     font-weight: 400;
     text-align: center;
 }
-
+/* Style des info */
 .form label {
     font-size: 36px;
     color: white;
